@@ -1,0 +1,311 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		2E88CC921C4BA08100EA839A /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 2E88CC911C4BA08100EA839A /* main.m */; };
+		2E88CC951C4BA08100EA839A /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 2E88CC941C4BA08100EA839A /* AppDelegate.m */; };
+		2E88CC981C4BA08100EA839A /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2E88CC971C4BA08100EA839A /* ViewController.m */; };
+		2E88CC9B1C4BA08100EA839A /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2E88CC991C4BA08100EA839A /* Main.storyboard */; };
+		2E88CC9D1C4BA08100EA839A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2E88CC9C1C4BA08100EA839A /* Assets.xcassets */; };
+		2E88CCA01C4BA08100EA839A /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2E88CC9E1C4BA08100EA839A /* LaunchScreen.storyboard */; };
+		2E88CCA91C4BA66900EA839A /* MyView.m in Sources */ = {isa = PBXBuildFile; fileRef = 2E88CCA81C4BA66900EA839A /* MyView.m */; settings = {ASSET_TAGS = (); }; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		2E88CC8D1C4BA08100EA839A /* AngryBirdWithUIDynamic.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AngryBirdWithUIDynamic.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		2E88CC911C4BA08100EA839A /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		2E88CC931C4BA08100EA839A /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		2E88CC941C4BA08100EA839A /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		2E88CC961C4BA08100EA839A /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		2E88CC971C4BA08100EA839A /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		2E88CC9A1C4BA08100EA839A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		2E88CC9C1C4BA08100EA839A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		2E88CC9F1C4BA08100EA839A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		2E88CCA11C4BA08100EA839A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		2E88CCA71C4BA66900EA839A /* MyView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MyView.h; sourceTree = "<group>"; };
+		2E88CCA81C4BA66900EA839A /* MyView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MyView.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		2E88CC8A1C4BA08100EA839A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		2E88CC841C4BA08100EA839A = {
+			isa = PBXGroup;
+			children = (
+				2E88CC8F1C4BA08100EA839A /* AngryBirdWithUIDynamic */,
+				2E88CC8E1C4BA08100EA839A /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		2E88CC8E1C4BA08100EA839A /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				2E88CC8D1C4BA08100EA839A /* AngryBirdWithUIDynamic.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		2E88CC8F1C4BA08100EA839A /* AngryBirdWithUIDynamic */ = {
+			isa = PBXGroup;
+			children = (
+				2E88CC931C4BA08100EA839A /* AppDelegate.h */,
+				2E88CC941C4BA08100EA839A /* AppDelegate.m */,
+				2E88CC961C4BA08100EA839A /* ViewController.h */,
+				2E88CC971C4BA08100EA839A /* ViewController.m */,
+				2E88CCA71C4BA66900EA839A /* MyView.h */,
+				2E88CCA81C4BA66900EA839A /* MyView.m */,
+				2E88CC991C4BA08100EA839A /* Main.storyboard */,
+				2E88CC9C1C4BA08100EA839A /* Assets.xcassets */,
+				2E88CC9E1C4BA08100EA839A /* LaunchScreen.storyboard */,
+				2E88CCA11C4BA08100EA839A /* Info.plist */,
+				2E88CC901C4BA08100EA839A /* Supporting Files */,
+			);
+			path = AngryBirdWithUIDynamic;
+			sourceTree = "<group>";
+		};
+		2E88CC901C4BA08100EA839A /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				2E88CC911C4BA08100EA839A /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		2E88CC8C1C4BA08100EA839A /* AngryBirdWithUIDynamic */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2E88CCA41C4BA08100EA839A /* Build configuration list for PBXNativeTarget "AngryBirdWithUIDynamic" */;
+			buildPhases = (
+				2E88CC891C4BA08100EA839A /* Sources */,
+				2E88CC8A1C4BA08100EA839A /* Frameworks */,
+				2E88CC8B1C4BA08100EA839A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = AngryBirdWithUIDynamic;
+			productName = AngryBirdWithUIDynamic;
+			productReference = 2E88CC8D1C4BA08100EA839A /* AngryBirdWithUIDynamic.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		2E88CC851C4BA08100EA839A /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0700;
+				ORGANIZATIONNAME = Detailscool;
+				TargetAttributes = {
+					2E88CC8C1C4BA08100EA839A = {
+						CreatedOnToolsVersion = 7.0.1;
+					};
+				};
+			};
+			buildConfigurationList = 2E88CC881C4BA08100EA839A /* Build configuration list for PBXProject "AngryBirdWithUIDynamic" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 2E88CC841C4BA08100EA839A;
+			productRefGroup = 2E88CC8E1C4BA08100EA839A /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				2E88CC8C1C4BA08100EA839A /* AngryBirdWithUIDynamic */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		2E88CC8B1C4BA08100EA839A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2E88CCA01C4BA08100EA839A /* LaunchScreen.storyboard in Resources */,
+				2E88CC9D1C4BA08100EA839A /* Assets.xcassets in Resources */,
+				2E88CC9B1C4BA08100EA839A /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		2E88CC891C4BA08100EA839A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2E88CCA91C4BA66900EA839A /* MyView.m in Sources */,
+				2E88CC981C4BA08100EA839A /* ViewController.m in Sources */,
+				2E88CC951C4BA08100EA839A /* AppDelegate.m in Sources */,
+				2E88CC921C4BA08100EA839A /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		2E88CC991C4BA08100EA839A /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				2E88CC9A1C4BA08100EA839A /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		2E88CC9E1C4BA08100EA839A /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				2E88CC9F1C4BA08100EA839A /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		2E88CCA21C4BA08100EA839A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		2E88CCA31C4BA08100EA839A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		2E88CCA51C4BA08100EA839A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = AngryBirdWithUIDynamic/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = cn.hehe.AngryBirdWithUIDynamic;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		2E88CCA61C4BA08100EA839A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = AngryBirdWithUIDynamic/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = cn.hehe.AngryBirdWithUIDynamic;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		2E88CC881C4BA08100EA839A /* Build configuration list for PBXProject "AngryBirdWithUIDynamic" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2E88CCA21C4BA08100EA839A /* Debug */,
+				2E88CCA31C4BA08100EA839A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2E88CCA41C4BA08100EA839A /* Build configuration list for PBXNativeTarget "AngryBirdWithUIDynamic" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2E88CCA51C4BA08100EA839A /* Debug */,
+				2E88CCA61C4BA08100EA839A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 2E88CC851C4BA08100EA839A /* Project object */;
+}
